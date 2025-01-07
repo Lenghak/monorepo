@@ -1,11 +1,7 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
     "composite": true,
-    "incremental": true,
-    "paths": {
-      "~/*": ["*"]
-    }
+    "incremental": true
   },
   "extends": "./configs/typescript/base.json"
 }
