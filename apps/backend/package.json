@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "@hono/node-server": "^1.13.7",
+    "@packages/typescript": "workspace:*",
+    "hono": "^4.6.19"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.16",
+    "tsx": "^4.19.2"
+  },
+  "name": "@apps/backend",
+  "scripts": {
+    "dev": "tsx watch src/index.ts"
+  },
+  "type": "module"
+}

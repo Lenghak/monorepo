@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "jsx": "react-jsx",
+    "module": "ESNext",
+    "moduleDetection": "force",
+    "moduleResolution": "bundler",
+    "paths": {
+      "@packages/shadcn/*": ["./*"]
+    },
+    "skipLibCheck": true
+  },
+  "extends": "@packages/typescript/lib-react.json"
+}

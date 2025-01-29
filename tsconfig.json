@@ -4,9 +4,9 @@
     "composite": true,
     "incremental": true,
     "paths": {
-      "@packages/*": ["./packages/*"],
-      "@utils": ["./utils/*"]
+      "@apps/*": ["./apps/*"],
+      "@packages/*": ["./packages/*"]
     }
   },
-  "extends": "./configs/typescript/base.json"
+  "extends": "./packages/typescript/base.json"
 }
